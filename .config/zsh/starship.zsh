@@ -44,4 +44,7 @@
 # Unknown = " "
 # Windows = "󰍲 "
 ICON=" "
+if [[ $(uname) == "Linux" ]]; then
+	ICON=" "
+fi
 export STARSHIP_DISTRO="$ICON"
